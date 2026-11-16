@@ -1,123 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>B Choice – Discover new possibilities</title>
+  <meta name="description" content="B Choice is a mobile app with 24/7 support, high performance and 100% secure data. Download it today.">
+  <meta name="theme-color" content="#0b1d3a">
+  <meta property="og:title" content="B Choice – Discover new possibilities">
+  <meta property="og:description" content="Mobile app with 24/7 support, high performance and 100% secure data.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap">
   <link rel="stylesheet" href="styles.css">
-  <title>Business Website</title>
 </head>
-
 <body>
-  <div id="container">
-    <header>
-      <div id="logo">
-        <a href="#"><img src="./images/logo.png"></a>
-      </div>
-      <nav>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="bar">
+      <a class="logo" href="#home"><img src="images/logo.png" alt="B Choice, home" width="244" height="61"></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav id="nav" aria-label="Main">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#features">Features</a></li>
-          <li><a href="#about-us">About Us</a></li>
-          <li><a href="#contact-us">Contact Us</a></li>
+          <li><a href="#about-us">About us</a></li>
+          <li><a href="#contact-us">Contact us</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <div id="home">
-        <div id="home-info">
-          <h1>Discover New <br>Possibilities</h1>
-          <h3>Try it yourself. Download Our App Now.</h3>
-          <div id="download-app">
-            <a><img src="./images/Google-Play.png"></a>
-            <a><img src="./images/App-Store.png"></a>
+  <main id="main">
+    <section id="home" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1>Discover new possibilities</h1>
+          <p>Try it yourself. Download our app now.</p>
+          <div class="stores">
+            <a href="#" aria-label="Get it on Google Play"><img src="images/Google-Play.png" alt="Get it on Google Play" width="566" height="192"></a>
+            <a href="#" aria-label="Download on the App Store"><img src="images/App-Store.png" alt="Download on the App Store" width="500" height="163"></a>
           </div>
         </div>
-        <div id="home-bg">
-          <img src="./images/mobile.png">
+        <div class="phone">
+          <img src="images/mobile.png" alt="A hand holding a phone running the B Choice app" width="335" height="341">
+          <div class="screen" aria-hidden="true">
+            <p class="s-title">B Choice</p>
+            <ul>
+              <li><i></i><span>Support</span><b>24/7</b></li>
+              <li><i></i><span>Speed</span><b>Fast</b></li>
+              <li><i></i><span>Security</span><b>100%</b></li>
+            </ul>
+            <div class="s-btn">Get started</div>
+          </div>
         </div>
       </div>
-      <div id="features">
+    </section>
+
+    <section id="features" class="features">
+      <div class="wrap">
         <h2>Features</h2>
-        <div id="feature-list">
-          <div class="feature-block">
-            <img src="./images/customer-support.png">
-            <h3>24/7 Support</h3>
-            <p>Our mobile app comes with 24/7 support to ensure that you receive prompt and effective assistance
-              whenever you need it. Our team of experts is always on standby to help you with any issues you may
-              encounter while using our app.</p>
-          </div>
-
-          <div class="feature-block">
-            <img src="./images/performance.png">
-            <h3>High Performance</h3>
-            <p>Our mobile app is designed to deliver high performance and fast speeds, ensuring that you have a seamless
-              user experience. With optimized code and efficient algorithms, our app is capable of handling even the
-              most demanding tasks with ease.</p>
-          </div>
-
-          <div class="feature-block">
-            <img src="./images/verified.png">
-            <h3>100% Secure</h3>
-            <p>Your privacy and security are our top priority. Our mobile app employs state-of-the-art encryption and
-              security protocols to ensure that your data remains safe and confidential at all times. You can use our
-              app with confidence, knowing that your information is 100% secure.</p>
-          </div>
-
-
+        <p class="lead">Everything you need from a mobile app, done properly.</p>
+        <div class="cards">
+          <article class="card">
+            <div class="icon"><img src="images/customer-support.png" alt="" width="64" height="64"></div>
+            <h3>24/7 support</h3>
+            <p>Our team of experts is always on standby, so you get prompt, effective help whenever you need it.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><img src="images/performance.png" alt="" width="64" height="64"></div>
+            <h3>High performance</h3>
+            <p>Optimized code and efficient algorithms keep the app fast and smooth, even on demanding tasks.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><img src="images/verified.png" alt="" width="64" height="64"></div>
+            <h3>100% secure</h3>
+            <p>Modern encryption and security protocols keep your data private and confidential at all times.</p>
+          </article>
         </div>
       </div>
-      <div id="about-us">
-        <h2>About Us</h2>
-        <div id="about-blocks">
-          <div class="block">
-            <h2>Our Story</h2>
-          </div>
+    </section>
 
-          <div class="block" id="info">
-            <h3>Always deliver more than expected.</h3>
-            <p>At our company, we strive to exceed your expectations in every way possible. We believe in going the
-              extra mile to ensure that our customers are completely satisfied with our products and services. Whether
-              it's offering additional features, providing personalized support, or delivering projects ahead of
-              schedule, we are committed to delivering more than what is expected. We believe that this approach helps
-              us build long-lasting relationships with our customers and sets us apart from the competition.</p>
-          </div>
-
+    <section id="about-us" class="about">
+      <div class="wrap about-grid">
+        <div>
+          <h2>About us</h2>
+          <p class="story">Our story</p>
+        </div>
+        <div class="quote">
+          <h3>Always deliver more than expected.</h3>
+          <p>We go the extra mile to make sure our customers are completely satisfied. That can mean extra features, personalized support, or delivering ahead of schedule. This approach builds long-lasting relationships and sets us apart from the competition.</p>
         </div>
       </div>
-      <div id="contact-us">
-        <h2>Contact Us</h2>
-        <div id="block-list">
-          <div class="contact-block">
-            <h2>Reach out to us <br>if your need <br>Further Assitance</h2>
-          </div>
-          <form class="contact-block">
-            <label for="first-name">First Name:<br>
-              <input type="text" id="first-name">
-            </label>
-            <label for="last-name">Last Name:<br>
-              <input type="text" id="last-name">
-            </label>
-            <label for="email" id="email-label">Email:<br>
-              <input type="email" id="email">
-            </label>
-            <label for="text-area" id="textarea-label">Leave us a message:<br>
-              <textarea id="text-area" rows="4" cols="55"></textarea>
-            </label>
-          </form>
+    </section>
+
+    <section id="contact-us" class="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <h2>Contact us</h2>
+          <p class="big">Reach out if you need further assistance.</p>
         </div>
+        <form id="contact-form" novalidate>
+          <div class="row">
+            <label for="first-name">First name<input type="text" id="first-name" name="first-name" autocomplete="given-name" required></label>
+            <label for="last-name">Last name<input type="text" id="last-name" name="last-name" autocomplete="family-name" required></label>
+          </div>
+          <label for="email">Email<input type="email" id="email" name="email" autocomplete="email" required></label>
+          <label for="message">Message<textarea id="message" name="message" rows="5" required></textarea></label>
+          <button type="submit">Send message</button>
+          <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
       </div>
+    </section>
+  </main>
 
-      <footer>
-        <p>Copyright 2023</p>
-      </footer>
-    </main>
-
-
-  </div>
+  <footer class="site-footer">
+    <div class="wrap"><p>© 2026 B Choice. All rights reserved.</p></div>
+  </footer>
+  <script src="script.js"></script>
 </body>
-
 </html>
